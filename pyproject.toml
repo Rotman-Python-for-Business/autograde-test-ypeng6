@@ -1,0 +1,19 @@
+[project]
+name = "pythonforbusiness"
+version = "0.1.0"
+description = "Python for Business workshop - FinHub | Rotman School of Management"
+readme = "README.md"
+requires-python = "==3.13.*"
+dependencies = [
+    "pandas==2.2.3",
+    "numpy==2.2.1",
+    "matplotlib==3.10.0",
+    "scikit-learn==1.6.1",
+    "statsmodels==0.14.4",
+    "ipykernel==6.29.5",
+]
+
+[dependency-groups]
+dev = [
+    "yfinance==0.2.51",
+]
